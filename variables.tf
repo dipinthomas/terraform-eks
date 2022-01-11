@@ -4,7 +4,6 @@ variable "tagOwner" {}
 variable "clusterIdentifier" {}
 variable "nodeGroup" {}
 variable "desiredSize" {}
-variable "desiredSize" {}
 variable "maxSize" {}
 variable "minSize" {}
 variable "maxUnavailable" {}
