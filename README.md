@@ -1,6 +1,8 @@
 # EKS Cluster
 
-Terraform scripts to create EKS cluster for POC purpose, the idea is to get an EKS cluster running within minutes to perform some quick validations.  Cluster endpoint will be public but worker node will be running in a private subnet.
+Terraform scripts to create EKS cluster for POC purpose, the idea is to get an EKS cluster running within minutes to perform some quick validations hence, cluster will be deployed in public subnet. 
+
+**change the subnet to private for production usage**
 
 # Prerequisites
 
