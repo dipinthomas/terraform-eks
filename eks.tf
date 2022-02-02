@@ -56,7 +56,7 @@ resource "aws_eks_node_group" "nodegroup" {
   cluster_name    = aws_eks_cluster.cluster.name
   node_group_name = var.nodeGroup
   node_role_arn   = aws_iam_role.nodegroup.arn
-  subnet_ids      = module.vpc.private_subnets
+  subnet_ids      = module.vpc.public_subnets
 
   scaling_config {
     desired_size = var.desiredSize
